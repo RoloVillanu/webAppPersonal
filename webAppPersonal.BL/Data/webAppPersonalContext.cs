@@ -19,6 +19,7 @@ namespace webAppPersonal.BL.Data
 
         // Mapeo
         public DbSet<persona> Personas { get; set; }
+        public DbSet<producto> Productos { get; set; }
 
         // Patron de Singleton (unica instancia)
         public static webAppPersonalContext Create() {
