@@ -57,16 +57,22 @@
     <Compile Include="Data\webAppPersonalContext.cs" />
     <Compile Include="DTO\MapperConfig.cs" />
     <Compile Include="DTO\personaDTO.cs" />
+    <Compile Include="DTO\productoDTO.cs" />
     <Compile Include="Models\persona.cs" />
+    <Compile Include="Models\producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IGenericRepository.cs" />
     <Compile Include="Repositories\Implements\GenericRepository.cs" />
     <Compile Include="Repositories\Implements\PersonRepository.cs" />
+    <Compile Include="Repositories\Implements\ProductRepository.cs" />
     <Compile Include="Repositories\IPersonRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
     <Compile Include="Services\IGenericService.cs" />
     <Compile Include="Services\Implements\GenericService.cs" />
     <Compile Include="Services\Implements\PersonService.cs" />
+    <Compile Include="Services\Implements\ProductService.cs" />
     <Compile Include="Services\IPersonService.cs" />
+    <Compile Include="Services\IProductService.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

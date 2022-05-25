@@ -11,6 +11,9 @@ namespace webAppPersonal.BL.DTO
             {
                 cfg.CreateMap<persona, personaDTO>(); // Metodos Get
                 cfg.CreateMap<personaDTO, persona>(); // Metodos Post - Put
+
+                cfg.CreateMap<producto, productoDTO>(); // Metodos Get
+                cfg.CreateMap<productoDTO, producto>(); // Metodos Post - Put
             });
         }
     }
